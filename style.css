@@ -7,8 +7,8 @@
 
 p {
   font-size: 16px;
-  margin-left: 37px;
   margin-top: 0em;
+  text-indent: 0 !important;
   margin-bottom: 1.5em;
   font-family: junction;
   font-weight: 100;
@@ -104,22 +104,37 @@ div.headers {
 
 }
 
+.icon {
+  width: 900px;
+  text-indent: 0;
+  margin-bottom: 11px;
+}
 
 .icon img {
-  display:inline;
+  display: inline;
   width: 25px; 
   height: 25px;
+  margin-left: -9px;
   margin-right: 5px;
 }
 
-ul, li {
+ul {
   font-size: 16px; 
-  margin-left: 37px;
   font-family: junction;
   font-weight: 100;
   line-height: 20px;
   list-style-type: disc;
   margin-left: 10px;
+  padding-top: 10px;
+}
+
+ul {
+  font-size: 16px; 
+  font-family: junction;
+  font-weight: 100;
+  line-height: 20px;
+  list-style-type: disc;
+  margin-left: 37px;
 }
 
 a:link {
