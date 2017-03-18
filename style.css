@@ -19,7 +19,7 @@ i {
   font-family: junction;
 }
 
-.front {
+div.front {
   width: 900px;
   margin: 0 auto;
   text-align: center;
