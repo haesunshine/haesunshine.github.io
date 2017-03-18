@@ -9,7 +9,7 @@ p {
   font-size: 16px;
   margin-top: 0em;
   text-indent: 0 !important;
-  margin-bottom: 1.5em;
+  margin-bottom: 1.3em;
   font-family: junction;
   font-weight: 100;
 }
@@ -98,24 +98,19 @@ div.headers {
 }
 
 .text {
+  width: 900px;
   text-align: left;
   font-weight: 100;
   font-size: 16px;
 
 }
 
-.icon {
-  width: 900px;
-  text-indent: 0;
-  margin-bottom: 11px;
-}
-
-.icon img {
-  display: inline;
+img.icon {
   width: 25px; 
   height: 25px;
   margin-left: -9px;
   margin-right: 5px;
+
 }
 
 ul {
@@ -125,10 +120,10 @@ ul {
   line-height: 20px;
   list-style-type: disc;
   margin-left: 10px;
-  padding-top: 10px;
+  padding-bottom: 5px;
 }
 
-ul {
+li {
   font-size: 16px; 
   font-family: junction;
   font-weight: 100;
