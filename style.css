@@ -1,0 +1,153 @@
+<style>
+
+body{
+background-color: #fafafa;
+color: #222;
+font-family: junction;
+line-height: 34px;
+font-size: 18px;
+}3
+
+p{
+	font-size:18px;
+	margin-left:37px;
+	text-indent: -19px;
+	margin-bottom:0px;
+	margin-top:0px;
+	font-family:junction;
+	font-weight: 100;
+}
+
+p.special{
+	font-size:18px;
+	margin-left:37px;
+	text-indent: -19px;
+	margin-bottom:40px;
+	margin-top:0px;
+	font-family:junction;
+	font-weight: 10  0;
+}
+
+h1 {
+	font-family: simplifica;
+	font-size: 25pt;
+	line-height:20px;
+	margin-bottom:17px;
+}
+
+hr.line {
+  height: 4px;
+  width: 70px;
+  background-color: #49bcb1;
+  margin: 0.7em auto 0.7em;
+  border: 0 none;
+}
+
+a:link {
+   color: #49bcb1;
+   text-decoration: none;
+}
+
+a:visited{
+    color: #49bcb1;
+    text-decoration: none;
+}
+
+#nav{
+width: 102%;
+position: fixed;
+background-color: #fafafa;
+height: 50px;
+font-size: 16px;
+margin-left: 0px;
+margin-top: -10px;
+border-bottom: 0px solid gray;
+}
+
+td { padding: 5px;
+	vertical-align:top;
+	width:150px;
+	font-size:16pt;
+	text-align: center;}
+tr > td
+{
+  padding-bottom: 30px;
+}
+#nav a {
+	text-decoration: none;
+	color: #222;
+	margin: 0 0px 0 0;
+	padding: 4px 4px;
+	width: 89px;
+height: 15px;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+}
+#nav a:visited {
+	color:#222;
+	background-color: none;
+}
+li {
+	font-size: 18px; 
+	color: #222;
+	line-height: 20px;
+	list-style-type: disc;
+	margin-left: 10px;
+}
+
+dl {
+    line-height: 20px;
+	margin-left: 0px;
+
+}
+
+#content {
+  float: right ;
+  width: 50% ;
+}
+#navbar {
+  float: right;
+  width: 50%;
+  box-sizing: border-box;
+      padding-right: 50px;
+}
+* {
+  box-sizing: border-box;
+}
+
+.slider {
+    width: 400px;
+    margin: 0px auto;
+	    height: 250px;
+}
+
+.slick-slide {
+  margin: 0px 0px;
+  margin-bottom: 0px;
+}
+
+
+.slick-prev:before,
+.slick-next:before {
+    color: #5fc9d5;
+}
+
+
+
+/* FONT FILES & FAMILY -------------------------------------------------*/
+@font-face {
+		    font-family: 'molengo';
+		    src: url('fonts/Molengo.ttf');
+		}
+
+@font-face {
+		    font-family: 'junction';
+		    src: url('fonts/junction-regular.ttf');
+		}
+
+@font-face {
+		    font-family: 'simplifica';
+		    src: url('fonts/simplifica.ttf');
+		};
+
+</style>
