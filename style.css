@@ -1,15 +1,13 @@
-<style>
-
 body{
-background-color: #fafafa;
-color: #222;
-font-family: junction;
-line-height: 34px;
-font-size: 18px;
+  background-color: #fafafa;
+  color: #222;
+  font-family: junction;
+  line-height: 34px;
+  font-size: 16px;
 }3
 
 p{
-	font-size:18px;
+	font-size:16px;
 	margin-left:37px;
 	text-indent: -19px;
 	margin-bottom:0px;
@@ -19,7 +17,7 @@ p{
 }
 
 p.special{
-	font-size:18px;
+	font-size:16px;
 	margin-left:37px;
 	text-indent: -19px;
 	margin-bottom:40px;
@@ -30,7 +28,7 @@ p.special{
 
 h1 {
 	font-family: simplifica;
-	font-size: 25pt;
+	font-size: 35px;
 	line-height:20px;
 	margin-bottom:17px;
 }
@@ -150,4 +148,3 @@ dl {
 		    src: url('fonts/simplifica.ttf');
 		};
 
-</style>
