@@ -221,9 +221,8 @@ a.btn {
 }
 
 a.anchor {
-  position: absolute; 
-  margin-top: 10%; 
-  visibility: hidden;
+  margin-top: 10em; 
+ 
 }
 
 /* Outer */
