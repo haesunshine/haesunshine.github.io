@@ -31,33 +31,32 @@
   <a name="interests"></a><BR><BR>
   <div class="headers">Interests<hr class = "line"></div>
   
-  <a href="#myModal"><div id = "tester"><img src="icons/education.png" /></div></a>
+  <span class="button" data-modal="#modEducation"><div class="interests title"><a href="#modEducation"><img src="icons/education.png" /><BR>Educational Equity</div></a></span>
 
-<!-- The Modal -->
-<div id="myModal" class="modal">
-
-  <!-- Modal content -->
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <p>Some text in the Modal..</p>
+  <div id="modEducation" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+        <div class="interests text">
+          <p>I was raised by a mother who devoted her life to helping women excel in STEM fields. Inspired by her advocacy, I have sought to build a life that empowers others to achieve their potential through education.</p>
+          <p>During my time in San Francisco, I mentored a low-income high school student through <a href="http://www.mindsmattersf.org/" target="_blank">Minds Matter</a>. Most importantly, I helped her discover and develop her passion for computer science, which led her to enroll in an engineering program for college. Since her graduation, I have led the summer program operations at Minds Matter to help our mentees tap into their passions and talents through college-level academic programs.</p>
+      </div>
+    </div>
   </div>
 
-</div>
-<script src="scripts/main.js"></script>
+  <span class="button" data-modal="#modAnalytics"><div class="interests title"><a href="#modAnalytics"><img src="icons/analytics.png" /><BR>Analytics for Good</div></a></span>
 
+  <div id="modAnalytics" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+        <div class="interests text">
+          <p>At <a href="https://www.educationsuperhighway.org/" target="_blank">EducationSuperHighway</a>, I developed data dashboards that empowered every colleague to conduct targeted outreach to schools that need better Internet access. While consulting for nonprofits such as <a href="https://firstgraduate.org/" target="_blank">First Graduate</a> and <a href="http://getmindright.org/" target="_blank">MindRight</a>, I built tools that enabled them to measure their impact and scale their most effective programs.</p>
+    
+          <p>These experiences affirmed that data translated into actionable insights expands organizational capacities to reach students in need. In the future, I aspire to build a social venture that breaks down barriers to education through democratization of data.</p>
+      </div>
+    </div>
+  </div>
   
-  <div class="interests title"><img src="icons/education.png" /><BR>Educational Equity
-  </div>
-  <div class="interests text">
-      <p>I was raised by a mother who devoted her life to helping women excel in STEM fields. Inspired by her advocacy, I have sought to build a life that empowers others to achieve their potential through education.</p>
-      <p>During my time in San Francisco, I mentored a low-income high school student through <a href="http://www.mindsmattersf.org/" target="_blank">Minds Matter</a>. Most importantly, I helped her discover and develop her passion for computer science, which led her to enroll in an engineering program for college. Since her graduation, I have led the summer program operations at Minds Matter to help our mentees tap into their passions and talents through college-level academic programs.</p>
-  </div>
-  <div class="interests title"><img src="icons/analytics.png" /><BR>Analytics for Good
-  </div>
-  <div class="interests text">
-      <p>At <a href="https://www.educationsuperhighway.org/" target="_blank">EducationSuperHighway</a>, I developed data dashboards that empowered every colleague to conduct targeted outreach to schools that need better Internet access. While consulting for nonprofits such as <a href="https://firstgraduate.org/" target="_blank">First Graduate</a> and <a href="http://getmindright.org/" target="_blank">MindRight</a>, I built tools that enabled them to measure their impact and scale their most effective programs.</p>
-      <p>These experiences affirmed that data translated into actionable insights expands organizational capacities to reach students in need. In the future, I aspire to build a social venture that breaks down barriers to education through democratization of data.</p>
-  </div>
+
   <div class="interests title"><img src="icons/heart.png" /><BR>Health and Wellness
   </div>
   <div class="interests text">
@@ -184,4 +183,6 @@
   </div><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
 
 </body>
+<script src="scripts/main.js"></script>
+
 </html>
