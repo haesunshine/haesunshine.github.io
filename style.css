@@ -222,7 +222,7 @@ a.btn {
 
 a.anchor {
   position: relative; 
-  top: -10%; 
+  top: 10%; 
   visibility: hidden;
 }
 
