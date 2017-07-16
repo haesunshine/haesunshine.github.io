@@ -200,3 +200,8 @@ dl {
   src: url('fonts/simplifica.ttf');
 };
 
+.font-smoothing {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
