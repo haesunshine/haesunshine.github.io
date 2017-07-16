@@ -220,6 +220,13 @@ a.btn {
   text-decoration: none;
 }
 
+a.anchor {
+  display: block; 
+  position: relative; 
+  top: -2em; 
+  visibility: hidden;
+}
+
 /* Outer */
 .popup {
     width:100%;
@@ -272,6 +279,8 @@ a.btn {
     background:rgba(0,0,0,0);
     text-decoration:none;
 }
+
+
 
 /* FONT FILES & FAMILY -------------------------------------------------*/
 @font-face {
