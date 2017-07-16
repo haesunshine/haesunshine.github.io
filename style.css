@@ -76,7 +76,7 @@ div.headers {
    font-weight: bold;
 }
 
-.passion, .project {
+.passion, .project, .about {
   width: 80%; 
   margin: auto; 
   margin-top: 0em;
@@ -170,17 +170,6 @@ a:visited {
   padding-right: 50px;
 }
 
-td { 
-  padding: 5px;
-  vertical-align:top;
-  width:150px;
-  font-size:16pt;	
-  text-align: center;
-}
-
-tr > td {
-  padding-bottom: 30px;
-}
 
 dl {
   margin-left: 0;
