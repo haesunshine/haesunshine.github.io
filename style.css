@@ -24,19 +24,19 @@ div.front {
   font-weight: 200;
   margin: 0 auto;
   text-align: center;
+  font-family: simplifica;
 }
 
 .front h1 {
-  font-family: simplifica;
   font-size: 13em;
   color: #4D8963;
-  padding-top: 2.5em;
-  white-space: nowrap;
+  line-height: 1em;
   padding-bottom: 1em;
+  padding-top: 2em;
+  white-space: nowrap;
 }
 
 .front h2 {
-  font-family: simplifica;
   font-size: 4em;
   color: #49bcb1;
   line-height: 1em;
