@@ -76,7 +76,7 @@ div.headers {
    font-weight: bold;
 }
 
-.passion, .project, .about {
+.interests, .project, .about {
   width: 80%; 
   margin: auto; 
   margin-top: 0em;
@@ -86,7 +86,7 @@ div.headers {
 
 }
 
-.passion img {
+.interests img {
   width: 50px;
   height: 50px;
 }
@@ -178,6 +178,44 @@ dl {
 #content {
   float: right ;
   width: 50% ;
+}
+
+.modal {
+    display: none; /* hidden by default */
+    position: fixed; /* stay in place */
+    z-index: 1; /* sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* full width */
+    height: 100%; /* full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fafafa;
+    border-radius: 1em;
+    margin: 25% auto; 
+    padding: 2em;
+    border: 0.3em solid #4D8963;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 
