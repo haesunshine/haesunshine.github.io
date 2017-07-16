@@ -22,7 +22,8 @@ i {
 div.front {
   width: 100%;
   font-weight: 400;
-  margin: 0 auto;
+  margin: auto;
+  margin-bottom: 1;
   text-align: center;
   font-family: simplifica;
 }
@@ -30,6 +31,7 @@ div.front {
 .front h1 {
   font-size: 13em;
   color: #4D8963;
+  font-weight: 1000;
   padding-top: 2em;
   padding-bottom: 1em;
   white-space: nowrap;
@@ -73,7 +75,6 @@ div.headers {
   margin-top: 0em;
   margin-bottom: 1.5em;
   font-family: junction;
-  line-height: 20px;
   vertical-align: text-top;
 
 }
@@ -101,7 +102,7 @@ div.headers {
   width: 80%;
   text-align: left;
   font-weight: 100;
-  font-size: 16px;
+  font-size: 1em;
 
 }
 
@@ -114,22 +115,18 @@ img.icon {
 }
 
 ul {
-  font-size: 16px; 
   font-family: junction;
-  font-weight: 100;
-  line-height: 20px;
   list-style-type: disc;
-  margin-left: 10px;
-  padding-bottom: 5px;
+  margin-left: 1em;
+  padding-bottom: 1em;
 }
 
 li {
   font-size: 16px; 
   font-family: junction;
   font-weight: 100;
-  line-height: 20px;
   list-style-type: disc;
-  margin-left: 37px;
+  margin-left: 1em;
 }
 
 a:link {
@@ -147,8 +144,7 @@ a:visited {
   position: fixed;
   background-color: #fafafa;
   height: 50px;
-  font-size: 16px;
-  margin-left: 0px;
+  margin-left: 0;
   margin-top: -10px;
   border-bottom: 0px solid gray;
 }
