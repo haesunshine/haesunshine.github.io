@@ -28,11 +28,11 @@ div.front {
 }
 
 .front h1 {
-  font-size: 13em;
+  font-size: 8em;
   color: #4D8963;
   line-height: 1em;
-  padding-bottom: 1em;
   padding-top: 2em;
+  padding-bottom: 1em;
   white-space: nowrap;
 }
 
