@@ -6,7 +6,7 @@
 }
 
 p {
-  font-size: 16px;
+  font-size: 1em;
   margin-top: 0em;
   text-indent: 0 !important;
   margin-bottom: 1.3em;
@@ -15,7 +15,7 @@ p {
 }
 
 i {
-  font-size: 10pt;
+  font-size: 1em;
   font-family: junction;
 }
 
@@ -23,19 +23,18 @@ div.front {
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  font-family: simplifica;
+  font-family: junction;
   color: #4D8963;
 }
 
 .front h1 {
-  font-family: junction;
-  font-size: 15em;
+  font-size: 13em;
   padding-top: 300px;
-  padding-bottom: 150px;
+  padding-bottom: 1em;
 }
 
 .front h2 {
-  font-size: 40px;
+  font-size: 4em;
   font-weight: 200;
   color: #49bcb1;
   line-height: 20px;
