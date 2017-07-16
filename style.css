@@ -20,19 +20,18 @@ i {
 }
 
 div.front {
-  width: 900px;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
-  font-family: simplifica, Arimo, sans-serif;
+  font-family: simplifica;
   color: #4D8963;
 }
 
 .front h1 {
   font-size: 100px;
-  font-weight: bold;
   line-height: 20px;
   padding-top: 300px;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
 }
 
 .front h2 {
