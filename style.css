@@ -222,7 +222,7 @@ a.btn {
 
 a.anchor {
   position: fixed; 
-  top: -25%; 
+  padding-top: -25%; 
   visibility: hidden;
 }
 
