@@ -23,13 +23,14 @@ div.front {
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  color: #4D8963;
 }
 
 .front h1 {
   font-family: simplifica;
   font-size: 12em;
+  color: #4D8963;
   padding-top: 2em;
+  white-space: nowrap;
   padding-bottom: 1em;
 }
 
