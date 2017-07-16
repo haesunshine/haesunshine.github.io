@@ -51,11 +51,13 @@ div.front {
 }
 }
 
-hr.line {
-  height: 0.1em;
-  width: 100%;
+hr.line{
+  height: 40px;
+  color: #49bcb1;
   background-color: #49bcb1;
-  border: none;
+  border-width: 0;
+  margin: 0;
+  
 }
 
 .box {
