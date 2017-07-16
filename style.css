@@ -40,7 +40,8 @@ div.front {
 .front h2 {
   font-size: 4em;
   color: #49bcb1;
-  padding-bottom: 0.8em;>
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 .front img {
