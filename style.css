@@ -29,10 +29,10 @@ div.front {
 }
 
 .front h1 {
-  font-size: 12.5em;
+  font-size: 13em;
   color: #4D8963;
   font-weight: 1000;
-  padding-top: 2em;
+  padding-top: 1.5em;
   padding-bottom: 1em;
   white-space: nowrap;
 }
@@ -75,8 +75,8 @@ div.headers {
 }
 
 .passion, .project {
-  width: 900px; 
-  margin: 0px auto; 
+  width: 80%; 
+  margin: auto; 
   margin-top: 0em;
   margin-bottom: 1.5em;
   font-family: junction;
@@ -127,7 +127,7 @@ ul {
 }
 
 li {
-  font-size: 16px; 
+  font-size: 1em; 
   font-family: junction;
   font-weight: 100;
   list-style-type: disc;
@@ -181,8 +181,7 @@ tr > td {
 }
 
 dl {
-  line-height: 20px;
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 #content {
