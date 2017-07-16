@@ -21,6 +21,7 @@ i {
 
 div.front {
   width: 100%;
+  font-weight: 200;
   margin: 0 auto;
   text-align: center;
 }
@@ -37,7 +38,6 @@ div.front {
 .front h2 {
   font-family: simplifica;
   font-size: 4em;
-  font-weight: 200;
   color: #49bcb1;
   line-height: 1em;
   padding-bottom: 1em;>
