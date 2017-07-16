@@ -149,6 +149,19 @@ a:visited {
   text-decoration: none;
 }
 
+table {
+  width: 80%;
+  margin: auto;
+  border: none;
+  padding-top: 10em;
+  padding-bottom: 10em;
+}
+
+th {
+
+  text-align: center;
+}
+
 #nav {
   width: 100%;
   position: fixed;
