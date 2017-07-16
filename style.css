@@ -221,7 +221,7 @@ a.btn {
 }
 
 a.anchor {
-  position: absolute; 
+  position: relative; 
   top: -25%; 
   visibility: hidden;
 }
