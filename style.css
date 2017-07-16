@@ -23,22 +23,23 @@ div.front {
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  font-family: junction;
   color: #4D8963;
 }
 
 .front h1 {
+  font-family: junction;
   font-size: 13em;
-  padding-top: 300px;
+  padding-top: 2em;
   padding-bottom: 1em;
 }
 
 .front h2 {
+  font-family: simplifica;
   font-size: 4em;
   font-weight: 200;
   color: #49bcb1;
-  line-height: 20px;
-  padding-bottom: 50px;>
+  line-height: 1em;
+  padding-bottom: 1em;>
 }
 
 hr.line {
