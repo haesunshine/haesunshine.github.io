@@ -1,6 +1,6 @@
 
 * {
- // margin: 0;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -23,7 +23,7 @@ div.front {
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  font-family: simplifica, sans-serif;
+  font-family: simplifica;
   color: #4D8963;
 }
 
