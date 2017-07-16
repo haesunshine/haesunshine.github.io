@@ -1,6 +1,6 @@
 
 * {
-  margin: 0;
+ // margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -23,13 +23,13 @@ div.front {
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  font-family: simplifica;
+  font-family: simplifica, sans-serif;
   color: #4D8963;
 }
 
 .front h1 {
   font-family: junction;
-  font-size: 150px;
+  font-size: 15em;
   padding-top: 300px;
   padding-bottom: 150px;
 }
