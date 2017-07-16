@@ -6,6 +6,9 @@
   <link href="style.css" type="text/css" rel="stylesheet">
   <!--backup font Arimo-->
   <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script type="text/javascript" src="scripts/main.js"></script>
+
 </head>
 
   <div id="nav"><BR>
@@ -29,38 +32,59 @@
   <a name="interests"></a><BR><BR>
   <div class="headers">Interests<hr class = "line"></div>
   
-  <span class="button" data-modal="#modEducation"><div class="interests title"><a href="#modEducation"><img src="icons/education.png" /><BR>Educational Equity</div></a></span>
-
-  <div id="modEducation" class="modal">
-    <div class="modal-content">
-      <span class="close">&times;</span>
+  
+<a class="btn" data-popup-open="popup-1" href="#"><div class="interests title"><img src="icons/education.png" /><BR>Educational Equity</div></a>
+ 
+<div class="popup" data-popup="popup-1">
+    <div class="popup-inner">
         <div class="interests text">
           <p>I was raised by a mother who devoted her life to helping women excel in STEM fields. Inspired by her advocacy, I have sought to build a life that empowers others to achieve their potential through education.</p>
           <p>During my time in San Francisco, I mentored a low-income high school student through <a href="http://www.mindsmattersf.org/" target="_blank">Minds Matter</a>. Most importantly, I helped her discover and develop her passion for computer science, which led her to enroll in an engineering program for college. Since her graduation, I have led the summer program operations at Minds Matter to help our mentees tap into their passions and talents through college-level academic programs.</p>
-      </div>
+      
+        <!--<p><a data-popup-close="popup-1" href="#">Close</a></p>-->
+        <a class="popup-close" data-popup-close="popup-1" href="#">x</a>
+        </div>
     </div>
+</div>
+
+<a class="btn" data-popup-open="popup-2" href="#"><div class="interests title"><img src="icons/analytics.png" /><BR>Analytics for Good</div></a>
+
+<div class="popup" data-popup="popup-2">
+    <div class="popup-inner">
+      <div class="interests text">
+        <p>At <a href="https://www.educationsuperhighway.org/" target="_blank">EducationSuperHighway</a>, I developed data dashboards that empowered every colleague to conduct targeted outreach to schools that need better Internet access. While consulting for nonprofits such as <a href="https://firstgraduate.org/" target="_blank">First Graduate</a> and <a href="http://getmindright.org/" target="_blank">MindRight</a>, I built tools that enabled them to measure their impact and scale their most effective programs.</p>
+    
+        <p>These experiences affirmed that data translated into actionable insights expands organizational capacities to reach students in need. In the future, I aspire to build a social venture that breaks down barriers to education through democratization of data.</p>
+    </div>
+        <!--<p><a data-popup-close="popup-2" href="#">Close</a></p>-->
+    <a class="popup-close" data-popup-close="popup-2" href="#">x</a>
+    </div>
+</div>
+
+  
+<a class="btn" data-popup-open="popup-3" href="#"><div class="interests title"><img src="icons/heart.png" /><BR>Health and Wellness</div></a>
+
+<div class="popup" data-popup="popup-3">
+  <div class="popup-inner">
+     <div class="interests text">
+       <p>I deeply value my physical and mental health. During my first year at <a href="https://deerfield.edu/" target="_blank">Deerfield Academy</a>, I joined the cross country team on a whim and have never stopped running. These days, I love to explore the trails in Golden Gate Park and Presidio, two of the best urban parks in the world that are both steps away from my home.</p>
+      
+        <p>In addition, I developed the practice of yoga and meditation, which have grounded me in times of both happiness and challenges. I am a RYT-200 certified yoga teacher. I also maintain a strict vegetarian diet out of health and environmental concerns.</p>
+    </div>  
+    <!--<p><a data-popup-close="popup-3" href="#">Close</a></p>-->
+    <a class="popup-close" data-popup-close="popup-3" href="#">x</a>
   </div>
+</div>
 
-  <span class="button" data-modal="#modAnalytics"><div class="interests title"><a href="#modAnalytics"><img src="icons/analytics.png" /><BR>Analytics for Good</div></a></span>
 
-  <div id="modAnalytics" class="modal">
+  <div id="modWellness" class="modal">
     <div class="modal-content">
       <span class="close">&times;</span>
-        <div class="interests text">
-          <p>At <a href="https://www.educationsuperhighway.org/" target="_blank">EducationSuperHighway</a>, I developed data dashboards that empowered every colleague to conduct targeted outreach to schools that need better Internet access. While consulting for nonprofits such as <a href="https://firstgraduate.org/" target="_blank">First Graduate</a> and <a href="http://getmindright.org/" target="_blank">MindRight</a>, I built tools that enabled them to measure their impact and scale their most effective programs.</p>
-    
-          <p>These experiences affirmed that data translated into actionable insights expands organizational capacities to reach students in need. In the future, I aspire to build a social venture that breaks down barriers to education through democratization of data.</p>
-      </div>
+       
     </div>
   </div>
-  
 
-  <div class="interests title"><img src="icons/heart.png" /><BR>Health and Wellness
-  </div>
-  <div class="interests text">
-      <p>I deeply value my physical and mental health. During my first year at <a href="https://deerfield.edu/" target="_blank">Deerfield Academy</a>, I joined the cross country team on a whim and have never stopped running. These days, I love to explore the trails in Golden Gate Park and Presidio, two of the best urban parks in the world that are both steps away from my home.</p>
-      <p>In addition, I developed the practice of yoga and meditation, which have grounded me in times of both happiness and challenges. I am a RYT-200 certified yoga teacher. I also maintain a strict vegetarian diet out of health and environmental concerns.</p>
-  </div>
+
 
   <div class="box"></div>
 
@@ -181,6 +205,5 @@
   </div><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
 
 </body>
-<script src="scripts/main.js"></script>
 
 </html>

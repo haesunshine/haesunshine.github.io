@@ -182,55 +182,64 @@ dl {
   width: 50% ;
 }
 
-.modal {
-    display: none; /* hidden by default */
-    position: fixed; /* stay in place */
-    z-index: 1; /* sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* full width */
-    height: 100%; /* full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
 
-/* Modal Content/Box */
-.modal-content {
-    background-color: #fafafa;
-    border-radius: 1em;
-    margin: 30% auto; 
-    padding: 3em 2em 2em 2em;
-    border: 0.3em solid #4D8963;
-    width: 80%; /* Could be more or less, depending on screen size */
-}
-
-/* The Close Button */
-.close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.button {
-    background-color: #fafafa;
-
-}
-
-.button a:link, .button a:visited {
+a.btn {
   color: #232323;
   text-decoration: none;
 }
 
-
+/* Outer */
+.popup {
+    width:100%;
+    height:100%;
+    display:none;
+    position:fixed;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.75);
+}
+ 
+/* Inner */
+.popup-inner {
+    max-width:90%;
+    width:90%;
+    padding:2em;
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+    box-shadow:0em 0.2em 0.2em rgba(0,0,0,1);
+    border-radius:1em;
+    background: #fff;
+}
+ 
+/* Close Button */
+.popup-close {
+    width:2em;
+    height:2em;
+    padding-top:0.3em;
+    display:inline-block;
+    position:absolute;
+    top:1em;
+    right:1em;
+    transition:ease 0.25s all;
+    -webkit-transform:translate(50%, -50%);
+    transform:translate(50%, -50%);
+    background:rgba(0,0,0,0);
+    font-family:Arial, Sans-Serif;
+    font-size:2em;
+    text-align:center;
+    line-height:100%;
+    color:#fff;
+}
+ 
+.popup-close:hover {
+    -webkit-transform:translate(50%, -50%) rotate(180deg);
+    transform:translate(50%, -50%) rotate(180deg);
+    background:rgba(0,0,0,0);
+    text-decoration:none;
+}
 
 /* FONT FILES & FAMILY -------------------------------------------------*/
 @font-face {
