@@ -221,7 +221,6 @@ a.btn {
 }
 
 a.anchor {
-  display: block; 
   position: relative; 
   top: -200px; 
   visibility: hidden;
