@@ -122,6 +122,7 @@ div.headers {
   text-align: center;
   font-weight: bold;
   font-size: 2em;
+  bottom: 0;
   color: #232323;
  
 }
@@ -180,6 +181,7 @@ td {
   text-align: center;
   border: 0.3em solid transparent;
   padding-top: 2em;
+  vertical-align: bottom;
 
 }
 
@@ -297,28 +299,6 @@ a.anchor {
     text-decoration:none;
 }
 
-
-div.gallery {
-  margin: 2em;
-  border: none;
-  float: left;
-  width: 80%;
-
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 2em;
-  text-align: center;
-}
 
 /* FONT FILES & FAMILY -------------------------------------------------*/
 @font-face {
