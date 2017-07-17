@@ -226,8 +226,7 @@ a.anchor {
 }
 
 #about {
-  position: relative;
-  top: -100px;
+  padding-top: -10em;
 }
 
 /* Outer */
