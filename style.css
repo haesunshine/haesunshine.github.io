@@ -75,7 +75,8 @@ div.front {
   margin: auto;
   margin-top: 5em;
   margin-bottom: 10em;
-  width: 5%;
+  padding-right: 3em;
+  width: 6%;
   
 }
 }
