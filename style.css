@@ -94,7 +94,7 @@ div.headers {
    margin: 0 auto; 
    text-align: center;
    font-family: simplifica;
-   font-size: 4em;
+   font-size: 5em;
    font-weight: bold;
    padding-top: 5em;
    padding-bottom: 5em;
@@ -127,7 +127,7 @@ div.headers {
 .title {
   text-align: center;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 2.5em;
   bottom: 0;
   color: #232323;
  
@@ -136,10 +136,36 @@ div.headers {
 .text {
   width: 80%;
   text-align: left;
-  font-weight: 100;
-  font-size: 1.2em;
+  font-weight: 200;
+  font-size: 1.5em;
 
 }
+
+#skills {
+  width: 80%; 
+  margin: auto; 
+  margin-top: 0em;
+  margin-bottom: 1.5em;
+  vertical-align: text-top; 
+
+}
+
+#skills ul {
+  list-style-type: disc;
+  margin-left: 1em;
+  padding-bottom: 1em;
+  font-family: junction;
+}
+
+#skills li {
+  font-family: junction;
+  text-align: left;
+  font-weight:200;
+  font-size: 4em;
+  padding-bottom: 0.5em;
+
+}
+
 
 img.icon {
   width: 1.5em; 
@@ -208,7 +234,7 @@ td:hover {
   margin-right: 1em; 
   margin-left: 1em; 
   font-family: simplifica; 
-  font-size: 3em;
+  font-size: 4em;
   font-weight: 400;
   vertical-align: text-top;
 }
