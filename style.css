@@ -256,6 +256,7 @@ a.anchor {
 .popup-inner {
     max-width:80%;
     width:80%;
+    height: auto;
     padding:2em;
     position:absolute;
     top:50%;
