@@ -55,11 +55,11 @@ div.front {
 }
 
 .front h1 {
-  font-size: 12em;
+  font-size: 13em;
   color: #4D8963;
   font-weight: 1000;
-  padding-top: 1.5em;
-  padding-bottom: 1em;
+  padding-top: 2em;
+  padding-bottom: 2em;
   white-space: nowrap;
 }
 
@@ -72,6 +72,7 @@ div.front {
 
 .front img {
   margin: auto;
+  margin-top: 5em;
   margin-bottom: 10em;
   width: 5%;
   
@@ -112,9 +113,9 @@ div.headers {
 
 .project img{
   float: center; 
-  height: 10em; 
-  width: 12em;
-  margin-left: 1em;
+  height: 30em; 
+  width: 40em;
+  
 }
 
 .title {
@@ -170,18 +171,19 @@ a:visited {
 table {
   width: 80%;
   margin: auto;
-  border-spacing: 5em ;
-  padding-top: 10em;
+  border-spacing: 0 5em ;
+  padding-top: 5em;
   padding-bottom: 10em;
 }
 
-th {
+td {
   text-align: center;
   border: 0.3em solid transparent;
+  padding-top: 2em;
 
 }
 
-th:hover {
+td:hover {
    border: 0.3em solid #4D8963;
    border-radius: 1em;
 }
