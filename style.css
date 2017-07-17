@@ -226,7 +226,7 @@ a.anchor {
 }
 
 #about {
-  padding-top: -10em;
+  padding-top: -5em;
 }
 
 /* Outer */
@@ -257,9 +257,9 @@ a.anchor {
  
 /* Close Button */
 .popup-close {
-    width:2em;
-    height:2.5em;
-    padding-top:0.3em;
+    width:3em;
+    height:4em;
+    padding-top:1em;
     display:inline-block;
     position:absolute;
     top:1em;
@@ -269,15 +269,15 @@ a.anchor {
     transform:translate(50%, -50%);
     background:rgba(0,0,0,0);
     font-family:Arial, Sans-Serif;
-    font-size:2em;
+    font-size:3em;
     text-align:center;
     line-height:100%;
     color:#fff;
 }
  
 .popup-close:hover {
-    -webkit-transform:translate(50%, -50%) rotate(180deg);
-    transform:translate(50%, -50%) rotate(180deg);
+    -webkit-transform:translate(50%, -50%) rotate(360deg);
+    transform:translate(50%, -50%) rotate(360deg);
     background:rgba(0,0,0,0);
     text-decoration:none;
 }
