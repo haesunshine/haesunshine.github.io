@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  -webkit-text-size-adjust: 100%;
+  
 }
 
 p {
@@ -287,8 +287,8 @@ a.anchor {
 }
  
 .popup-close:hover {
-    -webkit-transform:translate(50%, -50%) rotate(270deg);
-    transform:translate(50%, -50%) rotate(270deg);
+    -webkit-transform:translate(50%, -50%) rotate(340deg);
+    transform:translate(50%, -50%) rotate(340deg);
     background:rgba(0,0,0,0);
     text-decoration:none;
 }
