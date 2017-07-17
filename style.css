@@ -200,24 +200,17 @@ td:hover {
   width: 100%;
   position: fixed;
   background-color: #fafafa;
-  height: 10%;
+  height: 5%;
   margin-left: 0;
-  border-bottom: 0 solid gray;
+  border-bottom: 10em #fafafa;
 }
 
 #nav a:link, #nav a:visited {
   margin-right: 1em; 
   margin-left: 1em; 
   font-family: simplifica; 
-  font-size: 3em;
+  font-size: 80%;
   font-weight: 400;
-}
-
-#navbar {
-  float: right;
-  width: 50%;
-  box-sizing: border-box;
-  padding-right: 50px;
 }
 
 
