@@ -200,7 +200,7 @@ td:hover {
   width: 100%;
   position: fixed;
   background-color: #fafafa;
-  height: 5%;
+  height: 4em;
   margin-left: 0;
   border-bottom: 10em #fafafa;
 }
@@ -209,7 +209,7 @@ td:hover {
   margin-right: 1em; 
   margin-left: 1em; 
   font-family: simplifica; 
-  font-size: 80%;
+  font-size: 3em;
   font-weight: 400;
 }
 
