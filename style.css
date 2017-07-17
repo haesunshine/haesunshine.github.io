@@ -87,7 +87,7 @@ div.front {
 }
 
 div.headers {
-   width: 15%; 
+   width: 20%; 
    margin: 0 auto; 
    text-align: center;
    font-family: simplifica;
@@ -220,6 +220,10 @@ a.btn {
   text-decoration: none;
 }
 
+a.anchor {
+  position: relative;
+  top: -50px;
+}
 
 /* Outer */
 .popup {
