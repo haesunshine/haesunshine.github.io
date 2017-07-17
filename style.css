@@ -7,7 +7,6 @@
 }
 
 p {
-  -webkit-text-size-adjust: 100%
   font-size: 1.5em;
   line-height: 1.7em;
   margin-top: 0em;
@@ -235,6 +234,15 @@ a.btn {
   color: #232323;
   text-decoration: none;
 }
+}
+
+a.anchor {
+  position: relative;
+  top: -50px;
+}
+
+#skip-to-about {
+  padding-top: -5em;
 }
 
 
