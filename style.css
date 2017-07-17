@@ -298,8 +298,8 @@ a.anchor {
 }
  
 .popup-close:hover {
-    -webkit-transform:translate(50%, -50%) rotate(360deg);
-    transform:translate(50%, -50%) rotate(360deg);
+    -webkit-transform:translate(50%, -50%) rotate(270deg);
+    transform:translate(50%, -50%) rotate(270deg);
     background:rgba(0,0,0,0);
     text-decoration:none;
 }
