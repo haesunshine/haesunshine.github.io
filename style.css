@@ -94,6 +94,8 @@ div.headers {
    font-family: simplifica;
    font-size: 3.5em;
    font-weight: bold;
+   padding-bottom: 4em
+
 }
 
 .interests, .project, .about {
@@ -173,7 +175,6 @@ table {
   width: 80%;
   margin: auto;
   border-spacing: 0 5em ;
-  padding-top: 5em;
   padding-bottom: 10em;
 }
 
