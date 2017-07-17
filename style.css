@@ -176,8 +176,13 @@ table {
 }
 
 th {
-
   text-align: center;
+
+}
+
+th:hover {
+   border: 0.3em solid #4D8963;
+   border-radius: 1em;
 }
 
 #nav {
@@ -219,6 +224,7 @@ a.btn {
   color: #232323;
   text-decoration: none;
 }
+}
 
 a.anchor {
   position: relative;
@@ -238,7 +244,9 @@ a.anchor {
     top:0;
     left:0;
     background:rgba(0,0,0,0.75);
+
 }
+
  
 /* Inner */
 .popup-inner {
@@ -252,8 +260,10 @@ a.anchor {
     transform:translate(-50%, -50%);
     box-shadow:0em 0.2em 0.2em rgba(0,0,0,1);
     border-radius:1em;
-    background: #fff;
+    background: #fefefe;
+    border: 1em solid #49bcb1;
 }
+
  
 /* Close Button */
 .popup-close {
@@ -283,6 +293,26 @@ a.anchor {
 }
 
 
+div.gallery {
+  margin: 2em;
+  border: none;
+  float: left;
+  width: 80%;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 50%;
+  height: auto;
+}
+
+div.desc {
+  padding: 2em;
+  text-align: center;
+}
 
 /* FONT FILES & FAMILY -------------------------------------------------*/
 @font-face {
