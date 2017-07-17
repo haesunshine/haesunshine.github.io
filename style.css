@@ -112,9 +112,9 @@ div.headers {
 
 .project img{
   float: center; 
-  height: 420px; 
-
-  margin-left: 37px;
+  height: 10em; 
+  width: 12em;
+  margin-left: 1em;
 }
 
 .title {
@@ -177,6 +177,7 @@ table {
 
 th {
   text-align: center;
+  border: 0.3em solid transparent;
 
 }
 
@@ -298,6 +299,7 @@ div.gallery {
   border: none;
   float: left;
   width: 80%;
+  
 }
 
 div.gallery:hover {
@@ -305,7 +307,7 @@ div.gallery:hover {
 }
 
 div.gallery img {
-  width: 50%;
+  width: 100%;
   height: auto;
 }
 
