@@ -76,10 +76,9 @@ div.front {
 
 .front img {
   margin: auto;
-  margin-top: 0em;
+  width: 15em;
   padding-left: 3em;
   padding-right: 3em;
-  width: 15em;
   
 }
 
@@ -214,6 +213,7 @@ table {
   width: 70%;
   margin: auto;
   border-spacing: 0 5em ;
+  table-layout: fixed;
 }
 
 th{
