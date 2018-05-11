@@ -6,10 +6,15 @@
   
 }
 
+HTML {
+  zoom: 100%;
+}
 p {
   font-size: 1.5em;
   line-height: 1.7em;
   margin-top: 0em;
+  width: 70%;
+  margin: auto;
   text-indent: 0 !important;
   margin-bottom: 1.3em;
   font-family: junction;
@@ -58,8 +63,8 @@ div.front {
   font-size: 13em;
   color: #4D8963;
   font-weight: 1000;
-  padding-top: 2.5em;
-  padding-bottom: 2em;
+  padding-top: 2em;
+  padding-bottom: 1em;
   white-space: nowrap;
 }
 
@@ -72,15 +77,12 @@ div.front {
 
 .front img {
   margin: auto;
-  margin-top: 5em;
-  margin-bottom: 10em;
+  margin-top: 0em;
   padding-left: 3em;
   padding-right: 3em;
-  width: 9em;
+  width: 13em;
   
 }
-}
-
 
 .box {
   background-color: #49bcb1;
@@ -96,16 +98,24 @@ div.headers {
    font-family: simplifica;
    font-size: 5em;
    font-weight: bold;
-   padding-top: 5em;
-   padding-bottom: 5em;
+   padding-top: 6em;
+   padding-bottom: 2em;
 
 }
 
-.interests, .project, .about {
+div.about-text {
+    width: 70%
+    margin: 0 auto;
+    font-size: 1.5em;
+    font-family: simplifica;
+    padding-top: 15em;
+    padding-bottom: 15em;
+}
+.interests, .skills, .project, .about {
   width: 80%; 
   margin: auto; 
   margin-top: 0em;
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
   font-family: junction;
   vertical-align: text-top;
 
@@ -202,10 +212,9 @@ a:visited {
 }
 
 table {
-  width: 100%;
+  width: 80%;
   margin: auto;
   border-spacing: 0 5em ;
-  padding-bottom: 10em;
 }
 
 td {
