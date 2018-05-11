@@ -64,7 +64,7 @@ div.front {
   color: #4D8963;
   font-weight: 1000;
   padding-top: 2em;
-  padding-bottom: 0.5em;
+  padding-bottom: 1em;
   white-space: nowrap;
 }
 
@@ -221,6 +221,7 @@ th{
   text-align: center;
   border: 0em
   vertical-align: top;
+  padding-bottom: 1em;
 }
 
 td {
