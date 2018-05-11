@@ -105,13 +105,22 @@ div.headers {
 
 }
 
+.about {
+  width: 70%;
+  font-size: 2em;
+  margin: 0 auto;
+  font-family: junction;
+  padding-top: 15em;
+  padding-bottom: 15em;
+}
+
 .epilogue {
     width: 70%
     margin: 0 auto;
-    font-size: 1.5em;
+    font-size: 2em;
     font-family: junction;
     text-align: center;
-    padding-top: 20em;
+    padding-top: 15em;
     padding-bottom: 15em;
 }
 
@@ -120,7 +129,7 @@ div.headers {
   margin: auto;
   width: 40%;
 }
-.interests, .skills, .project, .about {
+.interests, .skills, .project {
   width: 80%; 
   margin: auto; 
   margin-top: 0em;
