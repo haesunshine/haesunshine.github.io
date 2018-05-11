@@ -4,7 +4,13 @@
   padding: 0;
   box-sizing: border-box;
   width: 100%;
+  display: -webkit-flex; /* Safari */
+  display: flex;
   
+}
+
+html {
+  zoom: 100%;
 }
 
 p {
