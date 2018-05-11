@@ -227,20 +227,28 @@ table {
   table-layout: fixed;
 }
 
-th{
+th {
   text-align: center;
-  border: 0em;
+  border: 0em; 
+  height: 1.5em;
   font-size: 3em;
   vertical-align: top;
   padding-bottom: 1em;
 }
 
+.skills table {
+  width: 70%;
+  margin: auto;
+  font-family: junction;
+  table-layout: fixed
+}
+
+
 td {
   text-align: center;
-  font-size: 1em;
-  border: 0.3em solid transparent;
-  padding-top: 2em;
-  vertical-align: bottom;
+  font-size: 2em;
+  height: 2em;
+  vertical-align: top;
 
 }
 
@@ -248,6 +256,7 @@ td {
 .project td {
   text-align: center;
   border: 0.3em solid transparent;
+  font-size: 1em;
   padding-top: 2em;
   vertical-align: bottom;
 
