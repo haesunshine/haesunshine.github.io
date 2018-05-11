@@ -3,10 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  width: 100%;
-  display: -webkit-flex; /* Safari */
-  display: flex;
-  
+  width: 100%;  
 }
 
 html {
@@ -220,6 +217,7 @@ table {
   width: 70%;
   margin: auto;
   border-spacing: 0 5em ;
+  table-layout: fixed;
 }
 
 th{
